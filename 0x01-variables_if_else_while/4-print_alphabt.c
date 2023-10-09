@@ -1,15 +1,16 @@
 #include <stdio.h>
 /**
- * main -Entry point
- * Description - print all alphabet excluding q in lowercase
+ * main - Entry point
+ * Description - print all alphabet excluding q and e in lowercase
  * Return : Always 0
  */
 int main(void)
 {
-	int n =97;
-	while (n <=122)
+	int n = 97;
+
+	while (n <= 122)
 	{
-		if(n == 101 || n == 113)
+		if (n == 101 || n == 113)
 		{
 			n++;
 			continue;
@@ -18,5 +19,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
